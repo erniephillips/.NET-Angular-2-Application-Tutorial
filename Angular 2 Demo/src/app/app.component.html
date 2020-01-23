@@ -1,0 +1,22 @@
+﻿<div style="padding:5px">
+    <ul class="nav nav-tabs">
+        <li><a [routerLink]="['/home']">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a [routerLink]="['/employees']">Employees</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li><a [routerLink]="['/employee-details']">Employees Details</a></li>
+    </ul>
+</div>
+<router-outlet></router-outlet>
+<!--<list-employee></list-employee>-->
+<!--<h1>
+    {{ pageHeader }}
+</h1>
+<my-employee></my-employee>
+<br /><br />
+<input [value]='name' (input)='name=$event.target.value' />
+<br />
+You entered: {{ name }}--> 
+
+<!--<br /><br /><br />
+Your text : <input type="text" [(ngModel)]="userText" />
+<br /><br />
+<simple [simpleInput]="userText"></simple>-->
